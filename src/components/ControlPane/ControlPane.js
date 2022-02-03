@@ -13,6 +13,7 @@ const ControlPane = ({
   handleSelectOption,
 }) => {
   return (
+  <div className={styles.wrapper}>
     <div className={styles.controlPane}>
       <h2 className={styles.title}>
         {title}
@@ -35,6 +36,7 @@ const ControlPane = ({
         ))}
       </ButtonRow>
     </div>
+  </div>
   );
 };
 
